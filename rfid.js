@@ -1,7 +1,7 @@
 var express = require('express'),
     app = express();
     io = require('socket.io').listen("8500");
-var rc522 = require("rc522-rfid");
+var rc522 = require("rc522");
 	
 console.log("App successfully launched!");
 
